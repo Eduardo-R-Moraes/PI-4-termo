@@ -20,4 +20,22 @@ Projeto integrador 2° semestre de 2024  \
   5. Integração API e front-end 07/10 -> 14/10
   6. PITCH de apresentação do projeto 14/10 -> 18/11
 
-  
+  Mapa de tecnologias:
+  Hardware:
+    notebooks pessoais: facilidade de uso e disponibilidade
+  Software:
+    VSCode: familiaridade e edição do código
+    postman: teste de api e facilidade de uso
+    navegador web: teste de front e facilidade de uso
+  Linguagem:
+    HTML: Estruturação das paginas web
+    CSS: Estilização das paginas web
+    Javascript: Estruturação da API em Node.js e da estruturação lógica do front-end
+    Typescript: Estruturação lógica do front-end
+    SQL: estruturação do banco de dados
+  Frameworks:
+    Next.js: Estruturação do front-end
+    Express: Estruturação do back-end
+
+  Matriz de Habilidade:
+    
