@@ -1,6 +1,6 @@
 # PI-4-termo
-## Projeto integrador 2° semestre de 2024  \
-## Integrantes: Bernardo Braga, Eduardo Oliveira, Daniel Matunoshita, Lucas Pandian
+Projeto integrador 2° semestre de 2024  \
+**Integrantes:** Bernardo Braga, Eduardo Oliveira, Daniel Matunoshita, Lucas Pandian
 
 ## Escopo do Projeto:
   ### Objetivo: 
