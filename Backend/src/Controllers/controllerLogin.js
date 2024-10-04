@@ -4,7 +4,6 @@ const bcrypt = require('bcrypt');
 
 const login = async (req,res) => {
     try{
-
             const {email,senha} = req.body;
 
             const user = await models.login(email, senha);
