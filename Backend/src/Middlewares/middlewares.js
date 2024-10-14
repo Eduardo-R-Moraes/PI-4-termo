@@ -23,7 +23,7 @@ const validateEmail = async(req, res, next) => {
     try{
         const {usu_email} = req.body;
         
-        const queryEmail = 'SELECT * FROM Usuarios WHERE usu_email = ?';
+        const queryEmail = 'SELECT * FROM usuarios WHERE usu_email = ?';
 
         const [findEmail] = await connection.execute(queryEmail, [usu_email])
         if(findEmail.length !== 0) {
