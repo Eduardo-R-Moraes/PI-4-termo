@@ -5,7 +5,7 @@ const cors = require("cors");
 app.use(express.json());
 app.use(cors());
 
-const routersUsers = require("./Routers/routersUser");
+const routersUsers = require("./Routers/routerUser");
 const routerLogin = require('./Routers/routerLogin');
 
 app.use(routersUsers);
