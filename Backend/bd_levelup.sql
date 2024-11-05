@@ -62,3 +62,11 @@ ALTER TABLE `comentario` ADD CONSTRAINT `comentario_fk2` FOREIGN KEY (`usu_id`) 
 ALTER TABLE `pedido_chaves` ADD CONSTRAINT `pedido_chaves_fk0` FOREIGN KEY (`cha_id`) REFERENCES `chaves`(`cha_id`);
 
 ALTER TABLE `pedido_chaves` ADD CONSTRAINT `pedido_chaves_fk1` FOREIGN KEY (`ped_id`) REFERENCES `pedidos`(`ped_id`);
+
+INSERT INTO jogos (jog_titulo, jog_descricao, jog_genero, jog_plataforma, jog_classificacao, jog_preco) VALUES ("Forza Horizon 5", "jogo de corrida de mundo aberto", "corrida", "pc e xbox", "12", 149.90);
+INSERT INTO jogos (jog_titulo, jog_descricao, jog_genero, jog_plataforma, jog_classificacao, jog_preco) VALUES ("Forza Horizon 4", "jogo de corrida de mundo aberto", "corrida", "pc e xbox", "10", 99.90);
+INSERT INTO jogos (jog_titulo, jog_descricao, jog_genero, jog_plataforma, jog_classificacao, jog_preco) VALUES ("Horizon Zero Down", "jogo de aventura de mundo aberto", "aventura", "pc, PS4 e PS5", "16", 129.90);
+INSERT INTO jogos (jog_titulo, jog_descricao, jog_genero, jog_plataforma, jog_classificacao, jog_preco) VALUES ("The Last Of Us", "jogo de sobrevivencia de mundo aberto", "aventura", "pc, PS4 e PS5", "16", 119.90);
+INSERT INTO jogos (jog_titulo, jog_descricao, jog_genero, jog_plataforma, jog_classificacao, jog_preco) VALUES ("Mario Kart 8", "jogo de corrida", "corrida", "Nintendo Switch", "L", 249.90);
+INSERT INTO jogos (jog_titulo, jog_descricao, jog_genero, jog_plataforma, jog_classificacao, jog_preco) VALUES ("The Legend Of Zelda", "jogo de aventura de mundo aberto", "aventura", "Nintendo Switch", "L", 249.90);
+
