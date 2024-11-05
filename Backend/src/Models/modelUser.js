@@ -32,8 +32,7 @@ const createUser = async (infoUser) => {
 };
 
 const getAllInfoUser = async (usu_id) => {
-  const query =
-    "SELECT usu_nome, usu_email , usu_adm FROM usuarios WHERE usu_id = ?";
+  const query = "SELECT usu_nome, usu_email , usu_adm FROM usuarios WHERE usu_id = ?";
 
   const [InfoUser] = await connection.execute(query, [usu_id]);
   return InfoUser;
