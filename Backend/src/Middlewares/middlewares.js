@@ -26,6 +26,7 @@ const validateEmail = async(req, res, next) => {
         const queryEmail = 'SELECT * FROM usuarios WHERE usu_email = ?';
 
         const [findEmail] = await connection.execute(queryEmail, [usu_email])
+        console.log(findEmail);
         if(findEmail.length !== 0) {
             return res.status(401).json({msg: "Email ja cadastrado! utilize outro email"});
         }
