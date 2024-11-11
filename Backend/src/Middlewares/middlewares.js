@@ -4,9 +4,9 @@ const jwt = require('jsonwebtoken');
 
 const validatePassword = (req, res,next) => {
     try {
-        const {senha , confirmarSenha} = req.body;
+        const {usu_senha , confirmarSenha} = req.body;
 
-        if (senha !== confirmarSenha) {
+        if (usu_senha !== confirmarSenha) {
             return res.status(422).json({msg: 'As senhas não conferem!'})
         }
 
