@@ -10,6 +10,7 @@ try {
   });
 
   module.exports = connection;
+  console.log(process.env.MYSQL_HOST);
 } catch (error) {
   return res.status(500).json({ status: 2 });
 }

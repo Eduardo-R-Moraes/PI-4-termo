@@ -4,9 +4,11 @@ const jwt = require('jsonwebtoken');
 
 const validatePassword = (req, res,next) => {
     try {
-        const {senha , confirmarSenha} = req.body;
+        const {usu_senha , confirmarSenha} = req.body;
+        console.log(usu_senha);
+        console.log(confirmarSenha);
 
-        if (senha !== confirmarSenha) {
+        if (usu_senha !== confirmarSenha) {
             return res.status(422).json({msg: 'As senhas não conferem!'})
         }
 
@@ -42,7 +44,7 @@ const validateEmail = async(req, res, next) => {
 
 const validarLogin = async (req, res, error, next) => {
     if (error) {
-        return res.status(500).json({msg: error.message});
+        return res.status(500).json({msg: error.message} + 'Pudim');
     }
     next();
 };

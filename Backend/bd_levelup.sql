@@ -69,4 +69,3 @@ INSERT INTO jogos (jog_titulo, jog_descricao, jog_genero, jog_plataforma, jog_cl
 INSERT INTO jogos (jog_titulo, jog_descricao, jog_genero, jog_plataforma, jog_classificacao, jog_preco) VALUES ("The Last Of Us", "jogo de sobrevivencia de mundo aberto", "aventura", "pc, PS4 e PS5", "16", 119.90);
 INSERT INTO jogos (jog_titulo, jog_descricao, jog_genero, jog_plataforma, jog_classificacao, jog_preco) VALUES ("Mario Kart 8", "jogo de corrida", "corrida", "Nintendo Switch", "L", 249.90);
 INSERT INTO jogos (jog_titulo, jog_descricao, jog_genero, jog_plataforma, jog_classificacao, jog_preco) VALUES ("The Legend Of Zelda", "jogo de aventura de mundo aberto", "aventura", "Nintendo Switch", "L", 249.90);
-
