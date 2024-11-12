@@ -10,7 +10,7 @@ const getAllinfoGame = async (jog_id) => {
 
 const getAllGame = async () => {
     try {
-      const query = "SELECT jog_titulo, jog_preco FROM jogos";
+      const query = "SELECT jog_id, jog_titulo, jog_preco FROM jogos";
   
       const [games] = await connection.execute(query);
       return games;

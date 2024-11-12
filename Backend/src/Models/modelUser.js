@@ -27,7 +27,7 @@ const createUser = async (infoUser) => {
     SenhaHash,
     newUser.usu_adm,
   ]);
-
+  console.log(createUser)
   return createUser;
 };
 
